@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food Recipe</title>
+    <!-- tag meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device, initial-scale= 1.0">
+    <!-- akhir tag meta -->
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- akhir css -->
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-lg fixed-top" style="z-index: 99999999;">
+        <div class="container">
+            <div class="brand">
+                <a href="#" class="navbar-brand" style="font-weight: 700;font-size: 30px;"><span style="color: #FF7A00;">Foo</span><span style="color: #5D6975;">die</span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./banner/ci_menu-duo.png" width="45" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Our Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+                <div class="bt-1 text-center" style="margin-left: auto;">
+                    <a href="#" style="text-decoration: none;color: #5D6975;font-weight: 500;">Login</a>
+                </div>
+                <div class="bt text-center" style="padding: 10px 35px;background-color: #FF7A00;border-radius: 333px;">
+                    <a href="#" style="text-decoration: none;color: #fff;font-weight: 500;">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- section banner -->
+    <header class="banner" style="margin-top: 140px;">
+        <div class="kotak" style="position: absolute;"></div>
+        <div class="kotak-2" style="position: absolute;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="text-content">
+                        <div class="content">
+                            <div class="main-content">
+                                <div class="content">
+                                    <div class="content">
+                                        <div class="contet">
+                                            <div class="ain-cpnren">
+                                                <div class="conetn">
+                                                    <div class="ontennt">
+                                                        <div class="conetnt">
+                                                            <div class="content">
+                                                                <h1 style="font-family: 'Montserrat', sans-serif;font-weight: 600;color: #373a42;letter-spacing: 0.5px;font-weight: 700 !important;">Find delicious <br> food recipes <br> easily here</h1>
+                                                                <p style="letter-spacing: 0.3px;color: #4F4F4F;">Cooking anything made easy with recipes that  
+                                                                you can <br> get it for free from the world's best and popular chef</p>
+                                                                <div class="form-content">
+                                                                    <form action="">
+                                                                        <div class="row" style="margin-top: 20px;">
+                                                                            <div class="col-md-5" style="margin-bottom: 15px;">
+                                                                                <input type="search" placeholder="Enter your recep food ....." class="form-control" style="padding: 15px 20px;border: none;background-color: #f4f8fa;border-radius: 222px;" required>
+                                                                            </div>
+                                                                            <div class="col-md-3">
+                                                                                <button type="submit" class="form-control" style="padding: 15px;border: none;background-color: #FF7a00;color: #ffff;font-weight: 500;border-radius: 100px;">Get Started</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="position: relative;">
+                    <div class="img-content">
+                        <div class="main-content">
+                            <div class="main-content">
+                                <div class="content">
+                                    <div class="main">
+                                        <div class="main-img">
+                                            <div class="img-contentn">
+                                                <div class="contnt">
+                                                    <div class="img">
+                                                        <img src="./banner/banner.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- akhir section banner -->
+
+    <!-- section about us -->
+    <section class="about" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="img-content">
+                        <div class="main-content">
+                            <div class="content">
+                                <div class="content-main">
+                                    <div class="mainconetnt">
+                                        <div class="cpntent">
+                                            <div class="comyemy">
+                                                <div class="min-content">
+                                                    <div class="contemy">
+                                                        <img src="./about/pngegg 1.png" style="width: 100%;height: 100%;" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="text-content">
+                        <div class="main-content">
+                            <div class="contnt">
+                                <div class="content-main">
+                                    <div class="main-content">
+                                        <div class="contemt">
+                                            <div class="text-conten">
+                                                <div class="main-content">
+                                                    <div class="content">
+                                                        <div class="main-content">
+                                                            <div class="main">
+                                                                <div class="content">
+                                                                    <div class="text">
+                                                                        <h1 style="font-weight: 700;color: #4F4F4F;">Enjoy good food with <br> 
+                                                                            the best recipes</h1>
+                                                                        <p style="padding: 16px 0 0px 0;color: #747474;">We work with 1000 of the world's best chefs who are ready <br> to give you special recipes and will 
+                                                                        provide tips that will <br> really help you in processing 
+                                                                        food to be more delicious</p>
+                                                                        <div class="btn" style="padding: 10px 25px;background-color: #FF7A00;border-radius: 100px;">
+                                                                            <a href="#" style="color: #fff;text-decoration: none;">Discover Menu</a>
+                                                                        </div>
+                                                                        <div class="btn">
+                                                                            <a href="#" style="color: #747474;">Learn More</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- asection akhir about us -->
+
+    <!-- section populer -->
+    <section class="populer" style="margin-top: 100px;">
+        <div class="container">
+            <div class="text-header">
+                <div class="main--content">
+                    <div class="conten">
+                        <div class="content-main">
+                            <div class="main-content">
+                                <div class="content">
+                                    <div class="main-conre">
+                                        ,<div class="content">
+                                            <div class="content">
+                                                <div class="text-center">
+                                                    <h1 style="font-weight: 700;color: #4F4F4F;">Most populer menu</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme" style="margin-top: 50px;">
+                <div class="item">
+                    <a href="#" style="text-decoration: none;">
+                    <div class="card-populer">
+                        <div class="main-content">
+                            <div class="main-contet">
+                                <div class="content">
+                                    <div class="content-card">
+                                        <div class="card-content">
+                                            <div class="conten">
+                                                <div class="img">
+                                                    <div class="bg-top">
+                                                        <img src="./menu/2.png" style="width: 100%;height: 100%;" alt="">
+                                                    </div>
+                                                    <div class="text-body" style="margin-top: 10px;">
+                                                        <h4 style="font-weight: 700;color: #4F4F4F;">Cake with fresh fruit</h4>
+                                                        <p style="padding: 5px 0;">Consectetur adipiscing elit. Magna esi 
+                                                            sit egestas sit. Elementum necolsu.</p>
+                                                        <div class="star" style="color: #97B7D7;">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" style="text-decoration: none;">
+                    <div class="card-populer">
+                        <div class="main-content">
+                            <div class="main-contet">
+                                <div class="content">
+                                    <div class="content-card">
+                                        <div class="card-content">
+                                            <div class="conten">
+                                                <div class="img">
+                                                    <div class="bg-top">
+                                                        <img src="./menu/joseph-gonzalez-hTR1XPtTo_k-unsplash 1.png" style="width: 100%;height: 100%;" alt="">
+                                                    </div>
+                                                    <div class="text-body" style="margin-top: 10px;">
+                                                        <h4 style="font-weight: 700;color: #4F4F4F;">Japanes Food</h4>
+                                                        <p style="padding: 5px 0;">Consectetur adipiscing elit. Magna esi 
+                                                            sit egestas sit. Elementum necolsu.</p>
+                                                        <div class="star" style="color: #97B7D7;">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" style="text-decoration: none;">
+                    <div class="card-populer">
+                        <div class="main-content">
+                            <div class="main-contet">
+                                <div class="content">
+                                    <div class="content-card">
+                                        <div class="card-content">
+                                            <div class="conten">
+                                                <div class="img">
+                                                    <div class="bg-top">
+                                                        <img src="./menu/s.png" style="width: 100%;height: 100%;" alt="">
+                                                    </div>
+                                                    <div class="text-body" style="margin-top: 10px;">
+                                                        <h4 style="font-weight: 700;color: #4F4F4F;">Salad with egg</h4>
+                                                        <p style="padding: 5px 0;">Consectetur adipiscing elit. Magna esi 
+                                                            sit egestas sit. Elementum necolsu.</p>
+                                                        <div class="star" style="color: #97B7D7;">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                            <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir section populer -->
+
+    <!-- section chef -->
+    <section class="chef" style="margin-top: 100px;">
+        <div class="container">
+            <div class="text-header">
+                <div class="main-conent">
+                    <div class="content">
+                        <div class="content-main">
+                            <div class="content">
+                                <div class="content">
+                                    <div class="content-text">
+                                        <div class="text-content">
+                                            <div class="content">
+                                                <div class="text-center">
+                                                    <h1 style="font-weight: 700;">Our special chef</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-themme" style="margin-top: 50px;">
+                <div class="item">
+                    <div class="card-chef">
+                        <div class="main-conent">
+                            <div class="content">
+                                <div class="content-mmain">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="comntent-main">
+                                                <div class="content">
+                                                    <div class="bg-top">
+                                                        <a href="#" style="text-decoration: none;">
+                                                        <div class="img">
+                                                            <img src="./chef/Group 53.png" style="width: 100%;height: 100%;" alt="">
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-chef">
+                        <div class="main-conent">
+                            <div class="content">
+                                <div class="content-mmain">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="comntent-main">
+                                                <div class="content">
+                                                    <div class="bg-top">
+                                                        <a href="#" style="text-decoration: none;">
+                                                        <div class="img">
+                                                            <img src="./chef/Group 55.png" style="width: 100%;height: 100%;" alt="">
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-chef">
+                        <div class="main-conent">
+                            <div class="content">
+                                <div class="content-mmain">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="comntent-main">
+                                                <div class="content">
+                                                    <div class="bg-top">
+                                                        <a href="#" style="text-decoration: none;">
+                                                        <div class="img">
+                                                            <img src="./chef/Group 54.png" style="width: 100%;height: 100%;" alt="">
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-chef">
+                        <div class="main-conent">
+                            <div class="content">
+                                <div class="content-mmain">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="comntent-main">
+                                                <div class="content">
+                                                    <div class="bg-top">
+                                                        <a href="#" style="text-decoration: none;">
+                                                        <div class="img">
+                                                            <img src="./chef/happy-young-cook-uniform-holding-salad 4.png" style="width: 100%;height: 100%;" alt="">
+                                                        </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir section chef -->
+
+    <!-- section statistik -->
+    <section class="statistik" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="text-content">
+                        <div class="main-content">
+                            <div class="content">
+                                <div class="content-maiin">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="content-main">
+                                                <div class="main-content">
+                                                    <div class="content text-center">
+                                                        <h1 style="font-weight: 700;">230K</h1>
+                                                        <p>Happy Mamber</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-content">
+                        <div class="main-content">
+                            <div class="content">
+                                <div class="content-maiin">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="content-main">
+                                                <div class="main-content">
+                                                    <div class="content text-center">
+                                                        <h1 style="font-weight: 700;">870</h1>
+                                                        <p>Recipe Food</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-content">
+                        <div class="main-content">
+                            <div class="content">
+                                <div class="content-maiin">
+                                    <div class="main-content">
+                                        <div class="content">
+                                            <div class="content-main">
+                                                <div class="main-content">
+                                                    <div class="content text-center">
+                                                        <h1 style="font-weight: 700;">100K</h1>
+                                                        <p>Active Member</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir section statistik -->
+
+    <!-- section testimonial -->
+    <section class="testimonial" style="margin-top: 100px;">
+        <div class="container">
+            <div class="text-center">
+                <div class="main-contnt">
+                    <div class="content">
+                        <div class="content">
+                            <div class="content-main">
+                                <div class="main-content">
+                                    <div class="content">
+                                        <div class="contenty-main">
+                                            <div class="amin-conten">
+                                                <div class="content">
+                                                    <div class="content-text">
+                                                        <div class="text-conetnt">
+                                                            <div class="content">
+                                                                <div class="text-center">
+                                                                    <h1 style="font-weight: 700;">Customer 
+                                                                        say about us</h1>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top: 100px;">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card-testi" style="border-radius: 20px;">
+                        <div class="main-conten" style="padding: 30px;border-radius: 30px;background-color: #fff;">
+                            <div class="content">
+                                <div class="content">
+                                    <div class="content-man">
+                                        <div class="main-content">
+                                            <div class="content">
+                                                <div class="content-main">
+                                                    <div class="man-content">
+                                                        <div class="content-">
+                                                            <div class="main-content">
+                                                                <div class="conyeny">
+                                                                    <div class="content">
+                                                                        <div class="main-contenty">
+                                                                            <div class="content">
+                                                                                <div class="img" style="font-weight: 700;font-size: 20px;">
+                                                                                    <img src="./testi/1.jpg" width="65" style="border-radius: 50%;margin-right: 10px;" alt=""> Muhamed Ijal
+                                                                                </div>
+                                                                                <div class="quote">
+                                                                                    <blockquote>
+                                                                                        <p style="padding: 15px 0 2px 0;">consectetur adipisicing atibus repellendus sed numquam, distinctio ea nihil repudiandae quaerat doloribus corrupti animi autem vitae voluptas esse quibusdam accusamus .</p>
+                                                                                    </blockquote>
+                                                                                </div>
+                                                                                <div class="star" style="color: #97B7D7;">
+                                                                                    <i class="fas fa-star"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card-testi" style="border-radius: 20px;">
+                        <div class="main-conten" style="padding: 30px;border-radius: 30px;background-color: #fff;">
+                            <div class="content">
+                                <div class="content">
+                                    <div class="content-man">
+                                        <div class="main-content">
+                                            <div class="content">
+                                                <div class="content-main">
+                                                    <div class="man-content">
+                                                        <div class="content-">
+                                                            <div class="main-content">
+                                                                <div class="conyeny">
+                                                                    <div class="content">
+                                                                        <div class="main-contenty">
+                                                                            <div class="content">
+                                                                                <div class="img" style="font-weight: 700;font-size: 20px;">
+                                                                                    <img src="./testi/1.jpg" width="65" style="border-radius: 50%;margin-right: 10px;" alt=""> Muhamed Ijal
+                                                                                </div>
+                                                                                <div class="quote">
+                                                                                    <blockquote>
+                                                                                        <p style="padding: 15px 0 2px 0;">consectetur adipisicing atibus repellendus sed numquam, distinctio ea nihil repudiandae quaerat doloribus corrupti animi autem vitae voluptas esse quibusdam accusamus .</p>
+                                                                                    </blockquote>
+                                                                                </div>
+                                                                                <div class="star" style="color: #97B7D7;">
+                                                                                    <i class="fas fa-star"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="card-testi" style="border-radius: 20px;">
+                        <div class="main-conten" style="padding: 30px;border-radius: 30px;background-color: #fff;">
+                            <div class="content">
+                                <div class="content">
+                                    <div class="content-man">
+                                        <div class="main-content">
+                                            <div class="content">
+                                                <div class="content-main">
+                                                    <div class="man-content">
+                                                        <div class="content-">
+                                                            <div class="main-content">
+                                                                <div class="conyeny">
+                                                                    <div class="content">
+                                                                        <div class="main-contenty">
+                                                                            <div class="content">
+                                                                                <div class="img" style="font-weight: 700;font-size: 20px;">
+                                                                                    <img src="./testi/1.jpg" width="65" style="border-radius: 50%;margin-right: 10px;" alt=""> Muhamed Ijal
+                                                                                </div>
+                                                                                <div class="quote">
+                                                                                    <blockquote>
+                                                                                        <p style="padding: 15px 0 2px 0;">consectetur adipisicing atibus repellendus sed numquam, distinctio ea nihil repudiandae quaerat doloribus corrupti animi autem vitae voluptas esse quibusdam accusamus .</p>
+                                                                                    </blockquote>
+                                                                                </div>
+                                                                                <div class="star" style="color: #97B7D7;">
+                                                                                    <i class="fas fa-star"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                    <i class="fas fa-star" style="margin-left: 2px;"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir section testimonail -->
+
+    <!-- section subscribe -->
+    <section class="section-subcribe" style="margin-top: 100px;border-radius: 40px;">
+        <div class="container" style="background-image: url(./chef/delicious-healthy-asian-food-gray-textured-background-with-copy-space\ 1.png);background-position: center;border-radius: 40px;padding: 40px;">
+            <div class="main-content">
+                <div class="conten">
+                    <div class="content">
+                        <div class="man-content">
+                            <div class="comnent-main">
+                                <div class="main">
+                                    <h1 style="font-weight: 600;color: #fff !important;">Subcribe to get <br> weekly
+                                        recipe update </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-content" style="margin-top:50px;">
+                <form action="">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-3" style="margin-bottom: 15px;">
+                            <input type="search" placeholder="Enter your recep food ....." class="form-control" style="padding: 15px 20px;border: none;background-color: #f4f8fa;border-radius: 222px;" required>
+                        </div>
+                        <div class="col-md-1">
+                            <button type="submit" class="form-control" style="padding: 15px;border: none;background-color: #FF7a00;color: #ffff;font-weight: 500;border-radius: 100px;">Get Started</button>
+                        </div>
+                    </div>
+                </form>
+            </div>  
+        </div>
+    </section>
+    <!-- akhier section subcribe -->
+
+    <!-- section footer -->
+    <footer style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="navbar-brand" style="font-weight: 700;font-size: 30px;"><span style="color: #FF7A00;">Foo</span><span style="color: #5D6975;">die</span></a>
+                    <p style="font-size: 17px;opacity: 0.8;">Get best recipe in the world with 
+                        easely and fast in here now </p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Information</h5>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Feature</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Helpfull Link</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">team & Privacy</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li>
+                            <a href="#">foodie@gmail.com</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">27672622728</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">02982872</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir section footer -->
+
+    <script src="./index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
