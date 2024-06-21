@@ -1,2 +1,1 @@
-# Food-Recipe.github.io
-Wen Design
+# Food-Recipe App
